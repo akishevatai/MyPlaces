@@ -1,0 +1,707 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Location"
+provides-nominal:
+- "8MyPlaces8LocationC"
+provides-member:
+- ["8MyPlaces8LocationC", ""]
+provides-dynamic-lookup:
+- "coordinate"
+- "deletePhotoFile"
+- "hasPhoto"
+- "nextPhotoID"
+- "photoImage"
+- "photoURL"
+- "subtitle"
+- "title"
+depends-top-level:
+- !private "!="
+- !private "+"
+- "Bool"
+- "CLLocationCoordinate2D"
+- !private "FileManager"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Location"
+- "MKAnnotation"
+- "NSManagedObject"
+- "String"
+- !private "StringLiteralType"
+- "UIImage"
+- "URL"
+- !private "UserDefaults"
+- !private "appDocumentsDirectory"
+- !private "assert"
+- !private "category"
+- !private "hasPhoto"
+- !private "latitude"
+- !private "locationDescription"
+- !private "longitude"
+- !private "photoID"
+- !private "photoURL"
+- !private "print"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "isEmpty"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "intValue"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "isEmpty"]
+- !private ["So22CLLocationCoordinate2DV", "init"]
+- !private ["s7CVarArgP", "CLLocationCoordinate2D"]
+- !private ["s7CVarArgP", "FileManager"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "appDocumentsDirectory"]
+- !private ["s7CVarArgP", "assert"]
+- !private ["s7CVarArgP", "category"]
+- ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "deletePhotoFile"]
+- !private ["s7CVarArgP", "hasPhoto"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intValue"]
+- !private ["s7CVarArgP", "integer"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "latitude"]
+- !private ["s7CVarArgP", "locationDescription"]
+- !private ["s7CVarArgP", "longitude"]
+- !private ["s7CVarArgP", "photoID"]
+- !private ["s7CVarArgP", "photoURL"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "removeItem"]
+- !private ["s7CVarArgP", "set"]
+- !private ["s7CVarArgP", "standard"]
+- ["s7CVarArgP", "subtitle"]
+- !private ["s7CVarArgP", "synchronize"]
+- ["s7CVarArgP", "title"]
+- !private ["Sl", ""]
+- !private ["Sl", "isEmpty"]
+- !private ["SL", ""]
+- !private ["SL", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "appDocumentsDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "assert"]
+- !private ["s28CustomDebugStringConvertibleP", "category"]
+- ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "deletePhotoFile"]
+- !private ["s28CustomDebugStringConvertibleP", "hasPhoto"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "integer"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "latitude"]
+- !private ["s28CustomDebugStringConvertibleP", "locationDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "longitude"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "photoID"]
+- !private ["s28CustomDebugStringConvertibleP", "photoURL"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "removeItem"]
+- !private ["s28CustomDebugStringConvertibleP", "set"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- ["s28CustomDebugStringConvertibleP", "subtitle"]
+- !private ["s28CustomDebugStringConvertibleP", "synchronize"]
+- ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appDocumentsDirectory"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "assert"]
+- !private ["s23CustomStringConvertibleP", "category"]
+- ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "deletePhotoFile"]
+- !private ["s23CustomStringConvertibleP", "hasPhoto"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "integer"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "latitude"]
+- !private ["s23CustomStringConvertibleP", "locationDescription"]
+- !private ["s23CustomStringConvertibleP", "longitude"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "photoID"]
+- !private ["s23CustomStringConvertibleP", "photoURL"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "removeItem"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- ["s23CustomStringConvertibleP", "subtitle"]
+- !private ["s23CustomStringConvertibleP", "synchronize"]
+- ["s23CustomStringConvertibleP", "title"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "path"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "path"]
+- !private ["SQ", "CLLocationCoordinate2D"]
+- !private ["SQ", "FileManager"]
+- !private ["SQ", "UIImage"]
+- !private ["SQ", "UserDefaults"]
+- ["SQ", ""]
+- !private ["SQ", "appDocumentsDirectory"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "assert"]
+- !private ["SQ", "category"]
+- ["SQ", "coordinate"]
+- !private ["SQ", "default"]
+- !private ["SQ", "deletePhotoFile"]
+- !private ["SQ", "hasPhoto"]
+- !private ["SQ", "init"]
+- !private ["SQ", "intValue"]
+- !private ["SQ", "integer"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "latitude"]
+- !private ["SQ", "locationDescription"]
+- !private ["SQ", "longitude"]
+- !private ["SQ", "path"]
+- !private ["SQ", "photoID"]
+- !private ["SQ", "photoURL"]
+- !private ["SQ", "print"]
+- !private ["SQ", "removeItem"]
+- !private ["SQ", "set"]
+- !private ["SQ", "standard"]
+- ["SQ", "subtitle"]
+- !private ["SQ", "synchronize"]
+- ["SQ", "title"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "removeItem"]
+- !private ["SH", "CLLocationCoordinate2D"]
+- !private ["SH", "FileManager"]
+- !private ["SH", "UIImage"]
+- !private ["SH", "UserDefaults"]
+- ["SH", ""]
+- !private ["SH", "appDocumentsDirectory"]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "assert"]
+- !private ["SH", "category"]
+- ["SH", "coordinate"]
+- !private ["SH", "default"]
+- !private ["SH", "deletePhotoFile"]
+- !private ["SH", "hasPhoto"]
+- !private ["SH", "init"]
+- !private ["SH", "intValue"]
+- !private ["SH", "integer"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "latitude"]
+- !private ["SH", "locationDescription"]
+- !private ["SH", "longitude"]
+- !private ["SH", "path"]
+- !private ["SH", "photoID"]
+- !private ["SH", "photoURL"]
+- !private ["SH", "print"]
+- !private ["SH", "removeItem"]
+- !private ["SH", "set"]
+- !private ["SH", "standard"]
+- ["SH", "subtitle"]
+- !private ["SH", "synchronize"]
+- ["SH", "title"]
+- !private ["s12IdentifiableP", "CLLocationCoordinate2D"]
+- !private ["s12IdentifiableP", "FileManager"]
+- !private ["s12IdentifiableP", "UIImage"]
+- !private ["s12IdentifiableP", "UserDefaults"]
+- !private ["s12IdentifiableP", "appDocumentsDirectory"]
+- !private ["s12IdentifiableP", "assert"]
+- !private ["s12IdentifiableP", "category"]
+- ["s12IdentifiableP", "coordinate"]
+- !private ["s12IdentifiableP", "hasPhoto"]
+- !private ["s12IdentifiableP", "latitude"]
+- !private ["s12IdentifiableP", "locationDescription"]
+- !private ["s12IdentifiableP", "longitude"]
+- !private ["s12IdentifiableP", "photoID"]
+- !private ["s12IdentifiableP", "photoURL"]
+- !private ["s12IdentifiableP", "print"]
+- ["s12IdentifiableP", "subtitle"]
+- ["s12IdentifiableP", "title"]
+- ["8MyPlaces8LocationC", "Bool"]
+- ["8MyPlaces8LocationC", "CLLocationCoordinate2D"]
+- !private ["8MyPlaces8LocationC", "FileManager"]
+- ["8MyPlaces8LocationC", "Int"]
+- ["8MyPlaces8LocationC", "String"]
+- ["8MyPlaces8LocationC", "UIImage"]
+- ["8MyPlaces8LocationC", "URL"]
+- !private ["8MyPlaces8LocationC", "UserDefaults"]
+- ["8MyPlaces8LocationC", ""]
+- !private ["8MyPlaces8LocationC", "appDocumentsDirectory"]
+- !private ["8MyPlaces8LocationC", "assert"]
+- !private ["8MyPlaces8LocationC", "category"]
+- ["8MyPlaces8LocationC", "coordinate"]
+- ["8MyPlaces8LocationC", "deinit"]
+- ["8MyPlaces8LocationC", "deletePhotoFile"]
+- ["8MyPlaces8LocationC", "hasPhoto"]
+- ["8MyPlaces8LocationC", "init"]
+- !private ["8MyPlaces8LocationC", "latitude"]
+- !private ["8MyPlaces8LocationC", "locationDescription"]
+- !private ["8MyPlaces8LocationC", "longitude"]
+- ["8MyPlaces8LocationC", "nextPhotoID"]
+- !private ["8MyPlaces8LocationC", "photoID"]
+- ["8MyPlaces8LocationC", "photoImage"]
+- ["8MyPlaces8LocationC", "photoURL"]
+- !private ["8MyPlaces8LocationC", "print"]
+- ["8MyPlaces8LocationC", "subtitle"]
+- ["8MyPlaces8LocationC", "title"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["So12MKAnnotationP", "CLLocationCoordinate2D"]
+- !private ["So12MKAnnotationP", "FileManager"]
+- !private ["So12MKAnnotationP", "UIImage"]
+- !private ["So12MKAnnotationP", "UserDefaults"]
+- ["So12MKAnnotationP", ""]
+- !private ["So12MKAnnotationP", "appDocumentsDirectory"]
+- !private ["So12MKAnnotationP", "assert"]
+- !private ["So12MKAnnotationP", "category"]
+- ["So12MKAnnotationP", "coordinate"]
+- ["So12MKAnnotationP", "deletePhotoFile"]
+- ["So12MKAnnotationP", "hasPhoto"]
+- ["So12MKAnnotationP", "init"]
+- !private ["So12MKAnnotationP", "latitude"]
+- !private ["So12MKAnnotationP", "locationDescription"]
+- !private ["So12MKAnnotationP", "longitude"]
+- ["So12MKAnnotationP", "nextPhotoID"]
+- !private ["So12MKAnnotationP", "photoID"]
+- ["So12MKAnnotationP", "photoImage"]
+- ["So12MKAnnotationP", "photoURL"]
+- !private ["So12MKAnnotationP", "print"]
+- ["So12MKAnnotationP", "subtitle"]
+- ["So12MKAnnotationP", "title"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "intValue"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "intValue"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- ["So20NSFetchRequestResultP", "Bool"]
+- ["So20NSFetchRequestResultP", "CLLocationCoordinate2D"]
+- !private ["So20NSFetchRequestResultP", "FileManager"]
+- ["So20NSFetchRequestResultP", "Int"]
+- ["So20NSFetchRequestResultP", "String"]
+- ["So20NSFetchRequestResultP", "UIImage"]
+- ["So20NSFetchRequestResultP", "URL"]
+- !private ["So20NSFetchRequestResultP", "UserDefaults"]
+- ["So20NSFetchRequestResultP", ""]
+- !private ["So20NSFetchRequestResultP", "appDocumentsDirectory"]
+- !private ["So20NSFetchRequestResultP", "assert"]
+- !private ["So20NSFetchRequestResultP", "category"]
+- ["So20NSFetchRequestResultP", "coordinate"]
+- ["So20NSFetchRequestResultP", "deletePhotoFile"]
+- ["So20NSFetchRequestResultP", "hasPhoto"]
+- ["So20NSFetchRequestResultP", "init"]
+- !private ["So20NSFetchRequestResultP", "intValue"]
+- !private ["So20NSFetchRequestResultP", "latitude"]
+- !private ["So20NSFetchRequestResultP", "locationDescription"]
+- !private ["So20NSFetchRequestResultP", "longitude"]
+- ["So20NSFetchRequestResultP", "nextPhotoID"]
+- !private ["So20NSFetchRequestResultP", "photoID"]
+- ["So20NSFetchRequestResultP", "photoImage"]
+- ["So20NSFetchRequestResultP", "photoURL"]
+- !private ["So20NSFetchRequestResultP", "print"]
+- ["So20NSFetchRequestResultP", "subtitle"]
+- ["So20NSFetchRequestResultP", "title"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- ["So15NSManagedObjectC", "Bool"]
+- ["So15NSManagedObjectC", "CLLocationCoordinate2D"]
+- !private ["So15NSManagedObjectC", "FileManager"]
+- ["So15NSManagedObjectC", "Int"]
+- ["So15NSManagedObjectC", "String"]
+- ["So15NSManagedObjectC", "UIImage"]
+- ["So15NSManagedObjectC", "URL"]
+- !private ["So15NSManagedObjectC", "UserDefaults"]
+- ["So15NSManagedObjectC", ""]
+- !private ["So15NSManagedObjectC", "appDocumentsDirectory"]
+- !private ["So15NSManagedObjectC", "assert"]
+- !private ["So15NSManagedObjectC", "category"]
+- ["So15NSManagedObjectC", "coordinate"]
+- ["So15NSManagedObjectC", "deletePhotoFile"]
+- ["So15NSManagedObjectC", "hasPhoto"]
+- ["So15NSManagedObjectC", "init"]
+- !private ["So15NSManagedObjectC", "latitude"]
+- !private ["So15NSManagedObjectC", "locationDescription"]
+- !private ["So15NSManagedObjectC", "longitude"]
+- ["So15NSManagedObjectC", "nextPhotoID"]
+- !private ["So15NSManagedObjectC", "photoID"]
+- ["So15NSManagedObjectC", "photoImage"]
+- ["So15NSManagedObjectC", "photoURL"]
+- !private ["So15NSManagedObjectC", "print"]
+- ["So15NSManagedObjectC", "subtitle"]
+- ["So15NSManagedObjectC", "title"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSNumberC", "intValue"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CLLocationCoordinate2D"]
+- !private ["So8NSObjectC", "FileManager"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "appDocumentsDirectory"]
+- !private ["So8NSObjectC", "assert"]
+- !private ["So8NSObjectC", "category"]
+- ["So8NSObjectC", "coordinate"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "deletePhotoFile"]
+- ["So8NSObjectC", "hasPhoto"]
+- !private ["So8NSObjectC", "imageNamed"]
+- !private ["So8NSObjectC", "imageWithCGImage"]
+- !private ["So8NSObjectC", "imageWithCIImage"]
+- !private ["So8NSObjectC", "imageWithContentsOfFile"]
+- !private ["So8NSObjectC", "imageWithData"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "intValue"]
+- !private ["So8NSObjectC", "integer"]
+- !private ["So8NSObjectC", "integerForKey"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "jpegData"]
+- !private ["So8NSObjectC", "latitude"]
+- !private ["So8NSObjectC", "locationDescription"]
+- !private ["So8NSObjectC", "longitude"]
+- ["So8NSObjectC", "nextPhotoID"]
+- !private ["So8NSObjectC", "photoID"]
+- ["So8NSObjectC", "photoImage"]
+- ["So8NSObjectC", "photoURL"]
+- !private ["So8NSObjectC", "pngData"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "removeItem"]
+- !private ["So8NSObjectC", "removeItemAtPath"]
+- !private ["So8NSObjectC", "removeItemAtURL"]
+- !private ["So8NSObjectC", "set"]
+- !private ["So8NSObjectC", "setBool"]
+- !private ["So8NSObjectC", "setDouble"]
+- !private ["So8NSObjectC", "setFloat"]
+- !private ["So8NSObjectC", "setInteger"]
+- !private ["So8NSObjectC", "setObject"]
+- !private ["So8NSObjectC", "setURL"]
+- !private ["So8NSObjectC", "standard"]
+- ["So8NSObjectC", "subtitle"]
+- !private ["So8NSObjectC", "synchronize"]
+- !private ["So8NSObjectC", "systemImageNamed"]
+- ["So8NSObjectC", "title"]
+- ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "CLLocationCoordinate2D"]
+- !private ["So8NSObjectP", "FileManager"]
+- ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "UIImage"]
+- ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "UserDefaults"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "appDocumentsDirectory"]
+- !private ["So8NSObjectP", "assert"]
+- !private ["So8NSObjectP", "category"]
+- ["So8NSObjectP", "coordinate"]
+- !private ["So8NSObjectP", "default"]
+- ["So8NSObjectP", "deletePhotoFile"]
+- ["So8NSObjectP", "hasPhoto"]
+- !private ["So8NSObjectP", "imageNamed"]
+- !private ["So8NSObjectP", "imageWithCGImage"]
+- !private ["So8NSObjectP", "imageWithCIImage"]
+- !private ["So8NSObjectP", "imageWithContentsOfFile"]
+- !private ["So8NSObjectP", "imageWithData"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "intValue"]
+- !private ["So8NSObjectP", "integer"]
+- !private ["So8NSObjectP", "integerForKey"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "jpegData"]
+- !private ["So8NSObjectP", "latitude"]
+- !private ["So8NSObjectP", "locationDescription"]
+- !private ["So8NSObjectP", "longitude"]
+- ["So8NSObjectP", "nextPhotoID"]
+- !private ["So8NSObjectP", "photoID"]
+- ["So8NSObjectP", "photoImage"]
+- ["So8NSObjectP", "photoURL"]
+- !private ["So8NSObjectP", "pngData"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "removeItem"]
+- !private ["So8NSObjectP", "removeItemAtPath"]
+- !private ["So8NSObjectP", "removeItemAtURL"]
+- !private ["So8NSObjectP", "set"]
+- !private ["So8NSObjectP", "setBool"]
+- !private ["So8NSObjectP", "setDouble"]
+- !private ["So8NSObjectP", "setFloat"]
+- !private ["So8NSObjectP", "setInteger"]
+- !private ["So8NSObjectP", "setObject"]
+- !private ["So8NSObjectP", "setURL"]
+- !private ["So8NSObjectP", "standard"]
+- ["So8NSObjectP", "subtitle"]
+- !private ["So8NSObjectP", "synchronize"]
+- !private ["So8NSObjectP", "systemImageNamed"]
+- ["So8NSObjectP", "title"]
+- !private ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "intValue"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- ["So7NSValueC", ""]
+- !private ["So7NSValueC", "intValue"]
+- !private ["7Combine16ObservableObjectP", "CLLocationCoordinate2D"]
+- !private ["7Combine16ObservableObjectP", "FileManager"]
+- !private ["7Combine16ObservableObjectP", "UIImage"]
+- !private ["7Combine16ObservableObjectP", "UserDefaults"]
+- ["7Combine16ObservableObjectP", ""]
+- !private ["7Combine16ObservableObjectP", "appDocumentsDirectory"]
+- !private ["7Combine16ObservableObjectP", "assert"]
+- !private ["7Combine16ObservableObjectP", "category"]
+- ["7Combine16ObservableObjectP", "coordinate"]
+- !private ["7Combine16ObservableObjectP", "deletePhotoFile"]
+- !private ["7Combine16ObservableObjectP", "hasPhoto"]
+- !private ["7Combine16ObservableObjectP", "latitude"]
+- !private ["7Combine16ObservableObjectP", "locationDescription"]
+- !private ["7Combine16ObservableObjectP", "longitude"]
+- !private ["7Combine16ObservableObjectP", "photoID"]
+- !private ["7Combine16ObservableObjectP", "photoURL"]
+- !private ["7Combine16ObservableObjectP", "print"]
+- ["7Combine16ObservableObjectP", "subtitle"]
+- ["7Combine16ObservableObjectP", "title"]
+- !private ["Sm", "isEmpty"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["ST", ""]
+- !private ["ST", "isEmpty"]
+- !private ["SS", "isEmpty"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "isEmpty"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["So14NSUserDefaultsC", "integer"]
+- !private ["So14NSUserDefaultsC", "set"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["So14NSUserDefaultsC", "synchronize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "intValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationCoordinate2D"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appDocumentsDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "category"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deletePhotoFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasPhoto"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "integer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "latitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locationDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "longitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "photoID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "photoURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "subtitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "synchronize"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CLLocationCoordinate2D"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FileManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserDefaults"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "appDocumentsDirectory"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "assert"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "category"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "coordinate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deletePhotoFile"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hasPhoto"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "intValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "integer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "latitude"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locationDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "longitude"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "photoID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "photoURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "set"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subtitle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "synchronize"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["So13CKRecordValueP", "intValue"]
+- !private ["So13CKRecordValueP", "isEmpty"]
+depends-nominal:
+- !private "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "So22CLLocationCoordinate2DV"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So13NSFileManagerC"
+- "SH"
+- "s12IdentifiableP"
+- "8MyPlaces8LocationC"
+- !private "s25LosslessStringConvertibleP"
+- "So12MKAnnotationP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So20NSFetchRequestResultP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So15NSManagedObjectC"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "So7NSValueC"
+- "7Combine16ObservableObjectP"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "10Foundation3URLV"
+- !private "So14NSUserDefaultsC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "So13CKRecordValueP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7e170b38138e17eaf93110db7e567fba"

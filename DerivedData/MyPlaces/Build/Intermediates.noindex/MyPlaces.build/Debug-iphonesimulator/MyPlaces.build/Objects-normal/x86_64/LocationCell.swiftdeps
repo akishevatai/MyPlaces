@@ -1,0 +1,671 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LocationCell"
+provides-nominal:
+- "8MyPlaces12LocationCellC"
+provides-member:
+- ["8MyPlaces12LocationCellC", ""]
+provides-dynamic-lookup:
+- "addressLabel"
+- "awakeFromNib"
+- "configure"
+- "descriptionLabel"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Location"
+- "LocationCell"
+- !private "String"
+- !private "StringLiteralType"
+- "UILabel"
+- "UITableViewCell"
+- !private "UnicodeScalarType"
+- !private "addressLabel"
+- !private "descriptionLabel"
+depends-member:
+- ["SK", ""]
+- !private ["SK", "add"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- ["So15CALayerDelegateP", "Location"]
+- !private ["So15CALayerDelegateP", "String"]
+- ["So15CALayerDelegateP", "UILabel"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "addressLabel"]
+- ["So15CALayerDelegateP", "awakeFromNib"]
+- ["So15CALayerDelegateP", "configure"]
+- ["So15CALayerDelegateP", "descriptionLabel"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "add"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "isEmpty"]
+- !private ["So11CLPlacemarkC", "locality"]
+- !private ["So11CLPlacemarkC", "postalCode"]
+- !private ["So11CLPlacemarkC", "subThoroughfare"]
+- !private ["So11CLPlacemarkC", "thoroughfare"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "addressLabel"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "configure"]
+- !private ["s7CVarArgP", "descriptionLabel"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "latitude"]
+- !private ["s7CVarArgP", "locality"]
+- !private ["s7CVarArgP", "locationDescription"]
+- !private ["s7CVarArgP", "longitude"]
+- !private ["s7CVarArgP", "placemark"]
+- !private ["s7CVarArgP", "postalCode"]
+- !private ["s7CVarArgP", "subThoroughfare"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "thoroughfare"]
+- ["Sl", ""]
+- !private ["Sl", "add"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- ["SL", ""]
+- !private ["SL", "add"]
+- !private ["SL", "init"]
+- !private ["SL", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "addressLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "configure"]
+- !private ["s28CustomDebugStringConvertibleP", "descriptionLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "latitude"]
+- !private ["s28CustomDebugStringConvertibleP", "locality"]
+- !private ["s28CustomDebugStringConvertibleP", "locationDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "longitude"]
+- !private ["s28CustomDebugStringConvertibleP", "placemark"]
+- !private ["s28CustomDebugStringConvertibleP", "postalCode"]
+- !private ["s28CustomDebugStringConvertibleP", "subThoroughfare"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "thoroughfare"]
+- !private ["s17CustomReflectableP", "add"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "addressLabel"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "configure"]
+- !private ["s23CustomStringConvertibleP", "descriptionLabel"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "latitude"]
+- !private ["s23CustomStringConvertibleP", "locality"]
+- !private ["s23CustomStringConvertibleP", "locationDescription"]
+- !private ["s23CustomStringConvertibleP", "longitude"]
+- !private ["s23CustomStringConvertibleP", "placemark"]
+- !private ["s23CustomStringConvertibleP", "postalCode"]
+- !private ["s23CustomStringConvertibleP", "subThoroughfare"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "thoroughfare"]
+- !private ["Se", "add"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "text"]
+- !private ["SE", "add"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "text"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "add"]
+- !private ["SQ", "addressLabel"]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "configure"]
+- !private ["SQ", "descriptionLabel"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "latitude"]
+- !private ["SQ", "locality"]
+- !private ["SQ", "locationDescription"]
+- !private ["SQ", "longitude"]
+- !private ["SQ", "placemark"]
+- !private ["SQ", "postalCode"]
+- !private ["SQ", "subThoroughfare"]
+- !private ["SQ", "text"]
+- !private ["SQ", "thoroughfare"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "add"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "add"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "add"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "add"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- !private ["SH", "add"]
+- !private ["SH", "addressLabel"]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "configure"]
+- !private ["SH", "descriptionLabel"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "latitude"]
+- !private ["SH", "locality"]
+- !private ["SH", "locationDescription"]
+- !private ["SH", "longitude"]
+- !private ["SH", "placemark"]
+- !private ["SH", "postalCode"]
+- !private ["SH", "subThoroughfare"]
+- !private ["SH", "text"]
+- !private ["SH", "thoroughfare"]
+- !private ["s12IdentifiableP", "latitude"]
+- !private ["s12IdentifiableP", "locationDescription"]
+- !private ["s12IdentifiableP", "longitude"]
+- !private ["s12IdentifiableP", "placemark"]
+- !private ["8MyPlaces8LocationC", "latitude"]
+- !private ["8MyPlaces8LocationC", "locationDescription"]
+- !private ["8MyPlaces8LocationC", "longitude"]
+- !private ["8MyPlaces8LocationC", "placemark"]
+- ["8MyPlaces12LocationCellC", "Location"]
+- !private ["8MyPlaces12LocationCellC", "String"]
+- ["8MyPlaces12LocationCellC", "UILabel"]
+- ["8MyPlaces12LocationCellC", ""]
+- ["8MyPlaces12LocationCellC", "addressLabel"]
+- ["8MyPlaces12LocationCellC", "awakeFromNib"]
+- ["8MyPlaces12LocationCellC", "configure"]
+- ["8MyPlaces12LocationCellC", "deinit"]
+- ["8MyPlaces12LocationCellC", "descriptionLabel"]
+- ["8MyPlaces12LocationCellC", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "add"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["So12MKAnnotationP", "latitude"]
+- !private ["So12MKAnnotationP", "locationDescription"]
+- !private ["So12MKAnnotationP", "longitude"]
+- !private ["So12MKAnnotationP", "placemark"]
+- !private ["s10MirrorPathP", "add"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- ["So8NSCodingP", "Location"]
+- !private ["So8NSCodingP", "String"]
+- ["So8NSCodingP", "UILabel"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "add"]
+- ["So8NSCodingP", "addressLabel"]
+- ["So8NSCodingP", "awakeFromNib"]
+- ["So8NSCodingP", "configure"]
+- ["So8NSCodingP", "descriptionLabel"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "locality"]
+- !private ["So8NSCodingP", "postalCode"]
+- !private ["So8NSCodingP", "subThoroughfare"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "thoroughfare"]
+- !private ["So9NSCopyingP", "add"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "locality"]
+- !private ["So9NSCopyingP", "postalCode"]
+- !private ["So9NSCopyingP", "subThoroughfare"]
+- !private ["So9NSCopyingP", "thoroughfare"]
+- !private ["So20NSFetchRequestResultP", "latitude"]
+- !private ["So20NSFetchRequestResultP", "locationDescription"]
+- !private ["So20NSFetchRequestResultP", "longitude"]
+- !private ["So20NSFetchRequestResultP", "placemark"]
+- !private ["So21NSItemProviderReadingP", "add"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "add"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- ["So15NSManagedObjectC", ""]
+- !private ["So15NSManagedObjectC", "latitude"]
+- !private ["So15NSManagedObjectC", "locationDescription"]
+- !private ["So15NSManagedObjectC", "longitude"]
+- !private ["So15NSManagedObjectC", "placemark"]
+- !private ["So16NSMutableCopyingP", "add"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- ["So8NSObjectC", "Location"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "add"]
+- ["So8NSObjectC", "addressLabel"]
+- ["So8NSObjectC", "awakeFromNib"]
+- ["So8NSObjectC", "configure"]
+- ["So8NSObjectC", "descriptionLabel"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "latitude"]
+- !private ["So8NSObjectC", "locality"]
+- !private ["So8NSObjectC", "locationDescription"]
+- !private ["So8NSObjectC", "longitude"]
+- !private ["So8NSObjectC", "placemark"]
+- !private ["So8NSObjectC", "postalCode"]
+- !private ["So8NSObjectC", "subThoroughfare"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "thoroughfare"]
+- ["So8NSObjectP", "Location"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "UILabel"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "add"]
+- ["So8NSObjectP", "addressLabel"]
+- ["So8NSObjectP", "awakeFromNib"]
+- ["So8NSObjectP", "configure"]
+- ["So8NSObjectP", "descriptionLabel"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "latitude"]
+- !private ["So8NSObjectP", "locality"]
+- !private ["So8NSObjectP", "locationDescription"]
+- !private ["So8NSObjectP", "longitude"]
+- !private ["So8NSObjectP", "placemark"]
+- !private ["So8NSObjectP", "postalCode"]
+- !private ["So8NSObjectP", "subThoroughfare"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "thoroughfare"]
+- !private ["So14NSSecureCodingP", "add"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "locality"]
+- !private ["So14NSSecureCodingP", "postalCode"]
+- !private ["So14NSSecureCodingP", "subThoroughfare"]
+- !private ["So14NSSecureCodingP", "thoroughfare"]
+- !private ["So8NSStringC", "add"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["7Combine16ObservableObjectP", "latitude"]
+- !private ["7Combine16ObservableObjectP", "locationDescription"]
+- !private ["7Combine16ObservableObjectP", "longitude"]
+- !private ["7Combine16ObservableObjectP", "placemark"]
+- !private ["Sq", "text"]
+- !private ["Sm", "add"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- ["ST", ""]
+- !private ["ST", "add"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["SS", "add"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["Sy", "add"]
+- !private ["Sy", "init"]
+- !private ["Sy", "isEmpty"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "add"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "add"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- ["So29UIAccessibilityIdentificationP", "Location"]
+- !private ["So29UIAccessibilityIdentificationP", "String"]
+- ["So29UIAccessibilityIdentificationP", "UILabel"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "addressLabel"]
+- ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- ["So29UIAccessibilityIdentificationP", "configure"]
+- ["So29UIAccessibilityIdentificationP", "descriptionLabel"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- ["So12UIAppearanceP", "Location"]
+- !private ["So12UIAppearanceP", "String"]
+- ["So12UIAppearanceP", "UILabel"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "addressLabel"]
+- ["So12UIAppearanceP", "awakeFromNib"]
+- ["So12UIAppearanceP", "configure"]
+- ["So12UIAppearanceP", "descriptionLabel"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", "Location"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", "UILabel"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "addressLabel"]
+- ["So21UIAppearanceContainerP", "awakeFromNib"]
+- ["So21UIAppearanceContainerP", "configure"]
+- ["So21UIAppearanceContainerP", "descriptionLabel"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- ["So17UICoordinateSpaceP", "Location"]
+- !private ["So17UICoordinateSpaceP", "String"]
+- ["So17UICoordinateSpaceP", "UILabel"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "addressLabel"]
+- ["So17UICoordinateSpaceP", "awakeFromNib"]
+- ["So17UICoordinateSpaceP", "configure"]
+- ["So17UICoordinateSpaceP", "descriptionLabel"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- ["So13UIDynamicItemP", "Location"]
+- !private ["So13UIDynamicItemP", "String"]
+- ["So13UIDynamicItemP", "UILabel"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "addressLabel"]
+- ["So13UIDynamicItemP", "awakeFromNib"]
+- ["So13UIDynamicItemP", "configure"]
+- ["So13UIDynamicItemP", "descriptionLabel"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", "Location"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", "UILabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "addressLabel"]
+- ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- ["So18UIFocusEnvironmentP", "configure"]
+- ["So18UIFocusEnvironmentP", "descriptionLabel"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So11UIFocusItemP", "Location"]
+- !private ["So11UIFocusItemP", "String"]
+- ["So11UIFocusItemP", "UILabel"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "addressLabel"]
+- ["So11UIFocusItemP", "awakeFromNib"]
+- ["So11UIFocusItemP", "configure"]
+- ["So11UIFocusItemP", "descriptionLabel"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "text"]
+- ["So20UIFocusItemContainerP", "Location"]
+- !private ["So20UIFocusItemContainerP", "String"]
+- ["So20UIFocusItemContainerP", "UILabel"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "addressLabel"]
+- ["So20UIFocusItemContainerP", "awakeFromNib"]
+- ["So20UIFocusItemContainerP", "configure"]
+- ["So20UIFocusItemContainerP", "descriptionLabel"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- ["So27UIGestureRecognizerDelegateP", "Location"]
+- !private ["So27UIGestureRecognizerDelegateP", "String"]
+- ["So27UIGestureRecognizerDelegateP", "UILabel"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- ["So27UIGestureRecognizerDelegateP", "addressLabel"]
+- ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- ["So27UIGestureRecognizerDelegateP", "configure"]
+- ["So27UIGestureRecognizerDelegateP", "descriptionLabel"]
+- ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So7UILabelC", "text"]
+- ["So24UILargeContentViewerItemP", "Location"]
+- !private ["So24UILargeContentViewerItemP", "String"]
+- ["So24UILargeContentViewerItemP", "UILabel"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "addressLabel"]
+- ["So24UILargeContentViewerItemP", "awakeFromNib"]
+- ["So24UILargeContentViewerItemP", "configure"]
+- ["So24UILargeContentViewerItemP", "descriptionLabel"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "Location"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "addressLabel"]
+- ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- ["So30UIPasteConfigurationSupportingP", "configure"]
+- ["So30UIPasteConfigurationSupportingP", "descriptionLabel"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So11UIResponderC", "Location"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "addressLabel"]
+- ["So11UIResponderC", "awakeFromNib"]
+- ["So11UIResponderC", "configure"]
+- ["So11UIResponderC", "descriptionLabel"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "text"]
+- ["So30UIResponderStandardEditActionsP", "Location"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", "UILabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "addressLabel"]
+- ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- ["So30UIResponderStandardEditActionsP", "configure"]
+- ["So30UIResponderStandardEditActionsP", "descriptionLabel"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So15UITableViewCellC", "Location"]
+- !private ["So15UITableViewCellC", "String"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "addressLabel"]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- ["So15UITableViewCellC", "configure"]
+- ["So15UITableViewCellC", "descriptionLabel"]
+- ["So15UITableViewCellC", "init"]
+- ["So18UITraitEnvironmentP", "Location"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", "UILabel"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "addressLabel"]
+- ["So18UITraitEnvironmentP", "awakeFromNib"]
+- ["So18UITraitEnvironmentP", "configure"]
+- ["So18UITraitEnvironmentP", "descriptionLabel"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So23UIUserActivityRestoringP", "Location"]
+- !private ["So23UIUserActivityRestoringP", "String"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "addressLabel"]
+- ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- ["So23UIUserActivityRestoringP", "configure"]
+- ["So23UIUserActivityRestoringP", "descriptionLabel"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So6UIViewC", "Location"]
+- !private ["So6UIViewC", "String"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "addressLabel"]
+- ["So6UIViewC", "awakeFromNib"]
+- ["So6UIViewC", "configure"]
+- ["So6UIViewC", "descriptionLabel"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "text"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "add"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "add"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "add"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "add"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "add"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "add"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addressLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descriptionLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "latitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locality"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locationDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "longitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "placemark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "postalCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subThoroughfare"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "thoroughfare"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "add"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addressLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "awakeFromNib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "configure"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "descriptionLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "latitude"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locality"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locationDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "longitude"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "placemark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "postalCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subThoroughfare"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "thoroughfare"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "add"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["So13CKRecordValueP", "add"]
+- !private ["So13CKRecordValueP", "isEmpty"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "String"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addressLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "configure"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "descriptionLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- "SK"
+- "So15CALayerDelegateP"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "So11CLPlacemarkC"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s12IdentifiableP"
+- !private "8MyPlaces8LocationC"
+- "8MyPlaces12LocationCellC"
+- "s25LosslessStringConvertibleP"
+- !private "So12MKAnnotationP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So20NSFetchRequestResultP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So15NSManagedObjectC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "7Combine16ObservableObjectP"
+- !private "Sq"
+- !private "Sm"
+- "ST"
+- !private "SS"
+- !private "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "So13CKRecordValueP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5120f7b8a4cce75bbb665dd16d01d9a8"

@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "d033d8014380c833f2748d3b6968b5bd"
+build_time: [1616174460, 562900000]
+inputs:
+  "/Users/ataiakishev/Desktop/MyPlaces/MyPlaces/AppDelegate.swift": [1604718097, 0]
+  "/Users/ataiakishev/Desktop/MyPlaces/MyPlaces/SavedLocationsTVController.swift": [1605927390, 0]
+  "/Users/ataiakishev/Desktop/MyPlaces/MyPlaces/LocationDetailsTableViewController.swift": [1607019001, 719114081]
+  "/Users/ataiakishev/Desktop/MyPlaces/MyPlaces/HudView.swift": [1604459697, 0]
+  "/Users/ataiakishev/Desktop/MyPlaces/Location+CoreDataProperties.swift": [1605923099, 0]
+  "/Users/ataiakishev/Desktop/MyPlaces/MyPlaces/MapViewController.swift": [1605672715, 0]
+  "/Users/ataiakishev/Desktop/MyPlaces/MyPlaces/LocationCell.swift": [1605929186, 0]
+  "/Users/ataiakishev/Desktop/MyPlaces/MyPlaces/Functions.swift": [1605062277, 0]
+  "/Users/ataiakishev/Desktop/MyPlaces/MyPlaces/String+AddText.swift": [1605929235, 0]
+  "/Users/ataiakishev/Desktop/MyPlaces/MyPlaces/SceneDelegate.swift": [1605667056, 0]
+  "/Users/ataiakishev/Desktop/MyPlaces/Location+CoreDataClass.swift": [1605929925, 0]
+  "/Users/ataiakishev/Desktop/MyPlaces/MyPlaces/CurrentLocationVC.swift": [1606428363, 730962542]
+  "/Users/ataiakishev/Desktop/MyPlaces/MyPlaces/CategoryPickerTVController.swift": [1606511635, 789965276]
